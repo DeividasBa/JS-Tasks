@@ -1,0 +1,1 @@
+Tasks for students that want to improve JS skills
