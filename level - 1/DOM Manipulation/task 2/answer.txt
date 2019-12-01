@@ -1,0 +1,13 @@
+//option 1:
+for(let i = 0; i < array.length; i++){
+    document.getElementById('output').innerHTML = array;
+}
+
+//option 2:
+for(let i = 0; i < array.length; i++){
+    document.getElementById('output').insertAdjacentHTML("beforeend",array[i]);
+}
+
+//More info about insertAdjacentHTML();
+//https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+//----------------------------------------
