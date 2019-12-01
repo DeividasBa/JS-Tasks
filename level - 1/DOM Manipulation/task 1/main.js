@@ -1,4 +1,4 @@
-//Print a sum of var1 and var 2 in <div is="output"></div>
+//Print a sum of var1 and var 2 in <div id="output"></div>
 
 const var1 = 15;
 const var2 = 24;

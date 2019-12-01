@@ -1,4 +1,4 @@
-//Print all values of array in <div is="output"></div>
+//Print all values of array in <div id="output"></div>
 
 const array = ["This", "is", "an", "array"];
 
