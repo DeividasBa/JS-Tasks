@@ -17,6 +17,7 @@ document.getElementsByTagName('div');
 // Returns the first element within the document that matches the specified group of selectors.
 document.querySelector('.someclass');
 document.querySelector('#someid');
+document.querySelector('input[type="button"]');
 
 // Returns a array of the elements within the document that match the specified group of selectors.
 document.querySelectorAll('div');
@@ -92,6 +93,21 @@ element.classList.toggle('blue');
 
 // will return true if it has class of 'foo' or false if it does not
 element.classList.contains('foo');
+```
+
+----------------------------------------------------------
+
+
+### Getting/Setting value from an element
+
+##### Getting:
+```javascript
+document.getElementById('someid').value;
+```
+
+##### Setting:
+```javascript
+document.getElementById('someid').value = 'new value';
 ```
 
 ----------------------------------------------------------

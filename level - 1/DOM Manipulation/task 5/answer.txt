@@ -1,0 +1,10 @@
+let HTML = '';
+let output = document.getElementById('output');
+for(let i = 0; i<obj.length; i++){
+    HTML = `<div>`;
+    HTML += `<p>${obj[i].name}</p>`;
+    HTML += `<p>${obj[i].age}</p>`;
+    HTML += `<p>${obj[i].info}</p>`;
+    HTML += `</div>`;
+    output.insertAdjacentHTML("beforeend", HTML);
+}
