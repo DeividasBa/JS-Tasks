@@ -1,0 +1,4 @@
+let box = document.querySelectorAll('.box');
+for(let i = 0; i < box.length; i++){
+    box[i].style.background = "black";
+}

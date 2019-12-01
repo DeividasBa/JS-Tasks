@@ -1,0 +1,3 @@
+function btnClick(){
+    document.getElementById('btn').classList.toggle('active');
+}

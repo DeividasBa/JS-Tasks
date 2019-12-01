@@ -1,0 +1,5 @@
+document.getElementById('output').innerHTML = var1 + var2;
+
+More info about innerHTML
+https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
+//----------------------------

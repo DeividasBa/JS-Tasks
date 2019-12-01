@@ -1,0 +1,6 @@
+document.getElementById('output');
+
+//or
+
+document.querySelector('#output');
+

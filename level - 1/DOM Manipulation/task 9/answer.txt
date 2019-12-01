@@ -1,0 +1,9 @@
+function btnClick(){
+    let input = document.getElementById('input');
+    let output = document.getElementById('output');
+    
+    let inputText = 'Output: ';
+    inputText += input.value;
+    output.innerHTML = inputText;
+
+}

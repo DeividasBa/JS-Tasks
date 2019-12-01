@@ -1,0 +1,5 @@
+let HTML = '';
+HTML += '<p>'+obj.name+'</p>';
+HTML += '<p>'+obj.age+'</p>';
+HTML += '<p>'+obj.info+'</p>';
+document.getElementById('output').innerHTML = HTML;
