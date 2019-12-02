@@ -19,7 +19,12 @@ const obj = [
 ];
 
 //code here
-
-
-
+let HTML ='';
+for( i=0; i<obj.length; i++)
+HTML += `
+<p>${obj[i].name}</p>
+<p>${obj[i].age}</p>
+<p>${obj[i].info}</p>
+`
+document.querySelector('#output').innerHTML = HTML;
 //answer is in answer.txt

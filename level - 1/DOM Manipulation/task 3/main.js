@@ -3,6 +3,9 @@
 
 //code here
 
+document.getElementById('div-1').classList.remove('active');
+
+document.getElementById("div-2").classList.add('.random');
 
 
 //answer is in answer.txt

@@ -2,6 +2,7 @@
 
 //code here
 
+document.getElementById('output');
 
 
 //answer is in answer.txt

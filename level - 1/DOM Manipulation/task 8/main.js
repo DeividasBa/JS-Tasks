@@ -3,5 +3,10 @@
 
 //code here
 
+let kintamasis = document.querySelectorAll('.box');
+
+for ( i=1; i<kintamasis.length; i+=2){
+kintamasis[i].style.backgroundColor = 'red';
+}
 
 //answer is in answer.txt

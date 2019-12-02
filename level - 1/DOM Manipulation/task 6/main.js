@@ -2,9 +2,7 @@
 
 function btnClick(){
 
-    //code here
-
+document.querySelector('#btn').classList.toggle('active');
 }
-
 
 //answer is in answer.txt

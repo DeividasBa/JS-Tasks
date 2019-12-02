@@ -8,6 +8,11 @@ const obj = {
 
 //code here
 
-
-
+let HTML='';
+HTML =`
+<p> name:'vardenis'</p>
+<p> age: 45 </p>
+<p> info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' </p>
+`
+document.getElementById('output').innerHTML = HTML;
 //answer is in answer.txt
